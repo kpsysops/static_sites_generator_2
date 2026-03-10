@@ -10,10 +10,10 @@ dir_path_public = "./public"
 dir_path_content = "./content"
 template_path = "./template.html"
 
-if sys.argv[0] is None:
+if sys.argv[1] is None:
     basepath = "/"
 else:
-    basepath = sys.argv[0]
+    basepath = sys.argv[1]
     dir_path_public = "./docs"
 
 
